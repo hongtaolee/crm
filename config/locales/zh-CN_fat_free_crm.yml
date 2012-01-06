@@ -169,7 +169,7 @@ zh-CN:
   msg_account_not_approved: 你的账号还未被批准
   msg_asset_deleted: "%{value} 已经被删除"
   msg_asset_not_available: 这个 %{value} 已不存在
-  msg_asset_not_authorized: You are not authorized to view this %{value}. # TODO
+  msg_asset_not_authorized: 没有权限访问 %{value}. # TODO
   msg_assets_not_available: 这个 %{value} 不存在
   msg_asset_rejected: "%{value} 已被拒绝"
   msg_bad_image_file: "^^不能将此图片上传或改变大小"
@@ -178,7 +178,7 @@ zh-CN:
   msg_cant_do: "不能 %{action} %{asset} 因为它已经不存在"
   msg_email_not_found: 未找到用户使用此邮件地址
   msg_enter_new_password: 请输入新密码
-  msg_goodbye: 您已退出，感谢您使用 Fat Free CRM!
+  msg_goodbye: 您已退出，感谢您使用 17TUTU CRM!
   msg_invalid_password: "^^请输入正确密码"
   msg_invalig_login: 用户名或密码错
   msg_last_login: 您上次登录是在 %{value}.
@@ -189,8 +189,8 @@ zh-CN:
   msg_password_updated: 密码更新成功
   msg_pwd_instructions_sent: 重置密码方法已经发出，请检查您的邮件
   msg_require_admin: 必须是管理员才能使用本页
-  msg_successful_signup: 成功申请，欢迎您使用 Fat Free CRM!
-  msg_welcome: 欢迎使用 Fat Free CRM!
+  msg_successful_signup: 成功申请，欢迎您使用 17TUTU CRM!
+  msg_welcome: 欢迎使用 17TUTU CRM!
 
   # Options.
   #----------------------------------------------------------------------------
@@ -532,12 +532,12 @@ zh-CN:
   about: 关于
   about_dev_group: 开发者讨论组
   about_features: 特性与bugs
-  about_ffc: 关于 Fat Free CRM
-  about_ffc_resources: Fat Free CRM 资源 (在新窗口打开)
-  about_ffc_version: Fat Free CRM 版本
+  about_ffc: 关于 17TUTU CRM
+  about_ffc_resources: 17TUTU CRM 资源 (在新窗口打开)
+  about_ffc_version: 17TUTU CRM 版本
   about_home_page: 主页
   about_project_page: 项目页
-  about_thank_you: 感谢使用Fat Free CRM! 希望使用愉快.
+  about_thank_you: 感谢使用17TUTU CRM! 希望使用愉快.
   about_twitter: Twitter 更新
   about_user_group: 用户讨论组
   admin: 管理
