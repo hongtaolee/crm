@@ -46,6 +46,13 @@ zh-CN:
   web: 网站
   word_of_mouth: 口头
   other: 其它
+  
+  affiliate: 促销员 
+  competitor: 竞争者
+  customer: 客户
+  partner: 合作者
+  reseller: 分销商
+  vendor: 供应商
 
   prospecting: 展望
   analysis: 分析
@@ -629,3 +636,12 @@ zh-CN:
   # If you need custom format look at 
   # http://code.google.com/p/calendardateselect/wiki/ChangingDateFormatCustom
   calendar_date_select_format: hyphen_ampm
+  
+  #-------------------- added by kevin
+  create_a_new: 创建一个新的
+  total_accounts: 总计
+  admin_tab_fields: 定制字段
+  fields: 字段
+  create_field_group: 创建字段分组
+  edit_field_group: 编辑字段分组
+  create_field: 创建字段
