@@ -69,7 +69,7 @@ class ContactsController < ApplicationController
   def new
     @contact  = Contact.new(:user => @current_user, :access => Setting.default_access)
     @account  = Account.new(:user => @current_user)
-    @accounts = get_accounts
+    @accounts = Account.all
     if params[:related]
       model, id = params[:related].split("_")
       instance_variable_set("@#{model}", model.classify.constantize.my.find(id))
