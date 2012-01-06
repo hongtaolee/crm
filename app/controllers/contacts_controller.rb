@@ -90,6 +90,7 @@ class ContactsController < ApplicationController
   def edit
     @contact  = Contact.my.find(params[:id])
     @account  = @contact.account || Account.new(:user => @current_user)
+    @accounts = Account.all    
     if params[:previous].to_s =~ /(\d+)\z/
       @previous = Contact.my.find($1)
     end
