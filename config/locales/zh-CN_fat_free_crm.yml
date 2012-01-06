@@ -645,3 +645,5 @@ zh-CN:
   create_field_group: 创建字段分组
   edit_field_group: 编辑字段分组
   create_field: 创建字段
+  comma_separated: 半角逗号分隔，仅限字母和数字
+  tags: 标签
