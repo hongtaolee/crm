@@ -19,7 +19,7 @@ zh-CN:
   tab_tasks: 任务
   tab_campaigns: 战役
   tab_leads: 线索 
-  tab_accounts: 账号
+  tab_accounts: 客户
   tab_contacts: 联系人
   tab_opportunities: 机会
 
@@ -112,7 +112,7 @@ zh-CN:
             name:
               missing_account_name: "^请指定用户名"
             access:
-              share_account: "^请指定可以共享账号的用户"
+              share_account: "^请指定可以共享客户的用户"
         campaign:
           attributes:
             name:
@@ -486,7 +486,7 @@ zh-CN:
   no_activity_records: 没有行为记录
   recent_activity: 最近行为
   recent_activity_options: 最近行为选项
-  subject_account: 账号
+  subject_account: 客户
   subject_campaign: 战役
   subject_contact: 联系人
   subject_lead: 线索
