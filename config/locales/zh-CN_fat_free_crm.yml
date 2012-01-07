@@ -68,9 +68,9 @@ zh-CN:
   follow_up: 跟进
   lunch: 午餐
   meeting: 会议
-  money: 钱
-  presentation: 演示
-  trip: 旅行
+  money: 收款
+  presentation: 方案
+  trip: 送票
 
   overdue: 逾期
   due_asap: 尽快
@@ -647,3 +647,8 @@ zh-CN:
   create_field: 创建字段
   comma_separated: 半角逗号分隔，仅限字母和数字
   tags: 标签
+  select_task: 选择任务
+  select_opportunity: 选择机会
+  expand_all: 展开全部
+  collapse_all: 收回全部
+  discard: 放弃
