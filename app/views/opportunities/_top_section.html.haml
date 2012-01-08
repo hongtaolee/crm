@@ -18,20 +18,20 @@
         %td= spacer
         %td
           .label #{t :members_count} :
-          = f.text_field members_count, :style => "width:110px; text-align:right;"
+          = f.text_field :members_count, :style => "width:110px; text-align:right;"
         %td= spacer
         %td
           .label #{t :unit_price} #{t :currency}:
-          = f.text_field unit_price, :style => "width:110px; text-align:right;"
+          = f.text_field :unit_price, :style => "width:110px; text-align:right;"
         %td= spacer
         %td
           .label #{t :amount} #{t :currency}:
-          = f.text_field amount, :style => "width:110px; text-align:right;"
+          = f.text_field :amount, :style => "width:110px; text-align:right;"
     %table
       %tr
         %td
           .label #{t :remark}:
-          = f.text_area remark, :style => "width:110px; text-align:right;"		
+          = f.text_area :remark, :style => "width:110px; text-align:right;"		
     = fields_for(@account) do |a|
       = a.hidden_field :user_id
       = a.hidden_field :access
