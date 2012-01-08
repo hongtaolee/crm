@@ -22,6 +22,7 @@
         = "#{opportunity.unit_price}" + " = "
         = "#{opportunity.amount}" + " | "
         = "#{opportunity.remark}" + " | "
+        - won_or_lost = %w(won lost).include?(opportunity.stage)
         - if opportunity.closes_on
           - if won_or_lost
             - if opportunity.closes_on >= Date.today
