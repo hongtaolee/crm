@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111209175716) do
+ActiveRecord::Schema.define(:version => 20120108064741) do
 
   create_table "account_contacts", :force => true do |t|
     t.integer  "account_id"
@@ -166,6 +166,7 @@ ActiveRecord::Schema.define(:version => 20111209175716) do
     t.datetime "updated_at"
     t.string   "background_info"
     t.string   "skype",           :limit => 128
+    t.string   "cf__"
   end
 
   add_index "contacts", ["assigned_to"], :name => "index_contacts_on_assigned_to"
@@ -272,6 +273,15 @@ ActiveRecord::Schema.define(:version => 20111209175716) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "background_info"
+    t.text     "cf__"
+    t.string   "cf___2"
+    t.text     "cf___3"
+    t.string   "cf___4"
+    t.text     "cf___5"
+    t.boolean  "cf___6"
+    t.text     "remark"
+    t.string   "members_count"
+    t.float    "unit_price"
   end
 
   add_index "opportunities", ["assigned_to"], :name => "index_opportunities_on_assigned_to"

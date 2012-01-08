@@ -401,7 +401,10 @@ zh-CN:
 
   # Views -> Opportunities.
   #----------------------------------------------------------------------------
-  amount: 单价
+  amount: 总价
+  unit_price: 单价
+  members_count: 人数
+  remark: 备注		  
   close_date: 出行日期
   closed_ago_on: 结束于 %{time_ago} 之前，在 %{date}
   closes_today: 预计今天结束!
