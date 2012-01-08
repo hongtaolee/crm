@@ -29,9 +29,9 @@
           = f.text_field amount, :style => "width:110px; text-align:right;"
     %table
 	  %tr
-	    %td
+        %td
           .label #{t :remark}:
-          = f.text_area remark, :style => "width:500px;text-align:right;"		
+          = f.text_area remark, :style => "width:110px; text-align:right;"		
     = fields_for(@account) do |a|
       = a.hidden_field :user_id
       = a.hidden_field :access
