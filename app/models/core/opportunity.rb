@@ -48,7 +48,7 @@ class Opportunity < ActiveRecord::Base
   has_many    :tasks, :as => :asset, :dependent => :destroy, :order => 'created_at DESC'
   has_many    :activities, :as => :subject, :order => 'created_at DESC'
   has_many    :emails, :as => :mediator
-
+  
   scope :state, lambda { |filters|
     where('stage IN (?)' + (filters.delete('other') ? ' OR stage IS NULL' : ''), filters)
   }
@@ -88,6 +88,7 @@ class Opportunity < ActiveRecord::Base
 
   after_create  :increment_opportunities_count
   after_destroy :decrement_opportunities_count
+  before_save :process_amount 
 
   # Default values provided through class methods.
   #----------------------------------------------------------------------------
@@ -181,6 +182,13 @@ class Opportunity < ActiveRecord::Base
   def decrement_opportunities_count
     if self.campaign_id
       Campaign.decrement_counter(:opportunities_count, self.campaign_id)
+    end
+  end
+  
+  def process_amount
+    if !members_count.blank? && !unit_price.blank?
+      self.amount = members_count * unit_price
+      puts self.amount
     end
   end
 
