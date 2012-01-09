@@ -40,6 +40,7 @@ FatFreeCRM::Application.routes.draw do
         get  :field_group
         post :auto_complete
         post :redraw
+        get  :opportunities
       end
       member do
         put  :attach
